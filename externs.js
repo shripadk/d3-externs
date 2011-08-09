@@ -1,0 +1,80 @@
+d3 = {version: "1.27.1"};
+d3.select = function(selector) {};
+d3.max = function(array, f) {};
+d3.min = function(array, f) {};
+d3.sum = function(array, f) {};
+d3.interpolate = function(a, b) {};
+
+d3.scale = {};
+d3.scale.linear = function() {};
+  scale.domain = function(x) {};
+  scale.range = function(x) {};
+  scale.rangeRound = function(x) {};
+  scale.interpolate = function(x) {};
+  scale.ticks = function(m) {};
+ d3.selectAll = function(selector) {};
+ groups.select = function(selector) {};
+ groups.selectAll = function(selector) {};
+ groups.each = function(callback) {};
+ groups.data = function(data, join) {};
+ groups.on = function(type, listener, capture) {};
+ groups.style = function(name, value, priority) {};
+ groups.attr = function(name, value) {};
+ groups.each = function(callback) {};
+ groups.text = function(value) {};
+ groups.append = function(name) {};
+ groups.insert = function(name, before) {};
+ groups.remove = function() {};
+ groups.transition = function() {};
+
+selection.enter = function() {};
+selection.exit = function() {};
+groups.append = function(name) {};
+transition.styleTween = function(name, tween, priority) {};
+transition.attr = function(name, value) {};
+transition.style = function(name, value, priority) {};
+transition.text = function(value) {};
+transition.select = function(query) {};
+transition.selectAll = function(query) {};
+transition.attrTween = function(name, tween) {};
+transition.ease = function(value) {};
+transition.duration = function(value) {};
+transition.delay = function(value) {};
+transition.remove = function() {};
+transition.each = function(type, listener) {};
+
+d3.svg = {};
+d3.svg.arc = function() {};
+arc.innerRadius = function(v) {};
+arc.outerRadius = function(v) {};
+arc.startAngle = function(v) {};
+arc.endAngle = function(v) {};
+arc.centroid = function() {};
+
+d3.layout = {};
+d3.layout.pie = function() {};
+pie.value = function(x) {};
+pie.sort = function(x) {};
+pie.startAngle = function(x) {};
+pie.endAngle = function(x) {};
+
+d3.svg.line = function() {};
+line.x = function(v) {};
+line.y = function(v) {};
+line.interpolate = function(v) {};
+line.tension = function(v) {};
+
+d3.svg.area = function() {};
+area.x = function(x) {};
+area.x0 = function(x) {};
+area.x1 = function(x) {};
+area.y = function(y) {};
+area.y0 = function(y) {};
+area.y1 = function(y) {};
+area.interpolate = function(x) {};
+area.tension = function(x) {};
+
+d3.scale.category10 = function() {};
+d3.scale.category20 = function() {};
+d3.scale.category20b = function() {};
+d3.scale.category20c = function() {};
